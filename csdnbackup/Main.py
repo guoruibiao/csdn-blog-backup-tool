@@ -11,10 +11,13 @@ from csdnbackup.login import Login
 from csdnbackup.backup import Backup
 from csdnbackup.blogscan import BlogScanner
 
-loginer = Login(username='marksinoberg', password='PRCstylewarmup')
+import getpass
+username = input('Please input your account name: ')
+password = getpass.getpass(prompt='Please type your own account password: ')
+loginer = Login(username=username, password=password)
 session = loginer.login()
 
-scanner = BlogScanner('marksinoberg')
+scanner = BlogScanner(username)
 links = scanner.scan()
 
 for link in links:
