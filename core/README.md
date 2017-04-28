@@ -1,3 +1,0 @@
-# core
-
-all the logic.
