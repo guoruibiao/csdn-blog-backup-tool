@@ -1,6 +1,8 @@
 # csdn-blog-backup-tool
 For CSDN blog backing up.
 
+![CSDN Blog Back up Tool](https://github.com/guoruibiao/csdn-blog-backup-tool/raw/master/imgs/csdn%E5%8D%9A%E5%AE%A2%E5%A4%87%E4%BB%BD%E5%B7%A5%E5%85%B7.png)
+
 ## how to use it
 
 - download the source code
