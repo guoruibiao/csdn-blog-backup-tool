@@ -5,7 +5,7 @@ For CSDN blog backing up.
 
 ## how to use it
 
-- download the source code
+- download the source code or the `.whl` file for `pip install XX.whl`
 
 - run the `python Main.py`, and type the account info by code's guide.
 
